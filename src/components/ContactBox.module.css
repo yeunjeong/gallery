@@ -1,0 +1,47 @@
+.contactBox {
+  display: flex;
+  flex-direction: row;
+  padding: 0vw 3vw;
+  margin-top: 10px;
+  height: 80vh;
+}
+
+.contactText {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-right: 5vw;
+  font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+  padding: 1vh 1vh;
+}
+
+.contactAboutME {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh 1vh;
+}
+
+.contactIcon {
+  width: clamp(1rem, 3vw, 3rem);
+  margin: 0vh 0.5vw;
+}
+
+.sendButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  height: 8vh;
+  margin-top: 2vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: 30px;
+  font-size: clamp(0.5rem, 2vw, 2rem);
+}
+
+.profileImg {
+  width: clamp(10rem, 30vw, 25rem);
+}

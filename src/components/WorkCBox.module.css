@@ -1,0 +1,24 @@
+.workCBox {
+  padding: 0vw 3vw;
+  margin-top: 10px;
+}
+
+.workCmenu {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  font-family: "Margarine";
+  font-size: 2vw;
+  align-items: center;
+  justify-content: center;
+  padding: 0vh 10vw;
+}
+
+.menuText {
+  margin: 0vh 5vw;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}

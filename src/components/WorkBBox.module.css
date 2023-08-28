@@ -1,0 +1,12 @@
+.workBBox {
+  padding: 0vw 3vw;
+  margin-top: 10px;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}

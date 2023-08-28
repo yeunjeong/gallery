@@ -1,0 +1,9 @@
+.workABox {
+  padding: 0vw 3vw;
+  margin-top: 10px;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}
