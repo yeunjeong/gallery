@@ -3,16 +3,16 @@ import { Link, Outlet } from "react-router-dom";
 import styles from "./MenuBar.module.css";
 import logoImg from "../assets/images/logo.png";
 
-const menuItems = [
-  { to: "/", text: "HOME" },
-  { to: "/aboutme", text: "ABOUT ME" },
-  { to: "/worka", text: "3D WORK" },
-  { to: "/workb", text: "CFX WORK" },
-  { to: "/workc", text: "ACTIVITY" },
-  { to: "/contact", text: "CONTACT" },
-];
-
 const Menubar = () => {
+  const menuItems = [
+    { to: "/", text: "HOME" },
+    { to: "/aboutme", text: "ABOUT ME" },
+    { to: "/worka", text: "3D WORK" },
+    { to: "/workb", text: "CFX WORK" },
+    { to: "/workc", text: "ACTIVITY" },
+    { to: "/contact", text: "CONTACT" },
+  ];
+
   return (
     <div>
       <div className={styles.container}>

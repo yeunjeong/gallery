@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Home.module.css";
+import SideScroll from "../components/SideScroll";
+
 import videoImg from "../assets/images/video.png";
 import profilePicImg from "../assets/images/profile_pic.png";
 import project1ExImg from "../assets/images/works/project1_ex.png";
@@ -13,21 +15,22 @@ import icon1Img from "../assets/images/icon1.png";
 import icon2Img from "../assets/images/icon2.png";
 import icon3Img from "../assets/images/icon3.png";
 
-const workCMenuItems = [
-  { text: "ACTIVITY1" },
-  { text: "ACTIVITY2" },
-  { text: "ACTIVITY3" },
-  { text: "ACTIVITY4" },
-  { text: "ACTIVITY5" },
-];
-
 function Home() {
+  const workCMenuItems = [
+    { text: "ACTIVITY1" },
+    { text: "ACTIVITY2" },
+    { text: "ACTIVITY3" },
+    { text: "ACTIVITY4" },
+    { text: "ACTIVITY5" },
+  ];
+
   return (
     <div>
-      <div className={styles.videoBox}>
+      <SideScroll />
+      <div id="1" className={styles.videoBox}>
         <img src={videoImg} alt="video" style={{ width: "100%" }} />
       </div>
-      <div className={styles.contentBox}>
+      <div id="2" className={styles.contentBox}>
         ABOUT ME
         <div className={styles.profileBox}>
           <img src={profilePicImg} alt="profile" style={{ width: "30vw" }} />
@@ -37,7 +40,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.contentBox}>
+      <div id="3" className={styles.contentBox}>
         3D WORK
         <div className={styles.workABox}>
           <div className={styles.imageWrapper}>
@@ -49,7 +52,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.contentBox}>
+      <div id="4" className={styles.contentBox}>
         CFX WORK
         <div className={styles.workBBox}>
           <div
@@ -116,7 +119,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.contentBox}>
+      <div id="5" className={styles.contentBox}>
         ACTIVITY
         <div className={styles.workCBox}>
           <div className={styles.workCmenu}>
@@ -144,7 +147,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.contentBox}>
+      <div id="6" className={styles.contentBox}>
         BUSINESS CARD
         <div className={styles.contactBox}>
           <div className={styles.contactText}>
