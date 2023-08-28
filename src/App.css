@@ -1,3 +1,13 @@
+/* 스크롤바 숨김 */
+html {
+  scrollbar-width: none; /* Firefox에 대한 설정 */
+  -ms-overflow-style: none; /* IE/Edge에 대한 설정 */
+}
+
+html::-webkit-scrollbar {
+  width: 0; /* Chrome, Safari, Opera에 대한 설정 */
+}
+
 body {
   background-color: black;
   color: white; /* 기본 텍스트 색 */

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./SideScroll.module.css";
 import { Link } from "react-scroll";
 
