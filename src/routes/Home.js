@@ -9,6 +9,9 @@ import project23Img from "../assets/images/works/project23.png";
 import project24Img from "../assets/images/works/project24.png";
 import project31Img from "../assets/images/works/project31.png";
 import profile2Img from "../assets/images/profile2.png";
+import icon1Img from "../assets/images/icon1.png";
+import icon2Img from "../assets/images/icon2.png";
+import icon3Img from "../assets/images/icon3.png";
 
 const workCMenuItems = [
   { text: "ACTIVITY1" },
@@ -143,12 +146,77 @@ function Home() {
       </div>
       <div className={styles.contentBox}>
         BUSINESS CARD
-        <div className={styles.profileBox}>
-          <img src={profile2Img} alt="profile" style={{ width: "30vw" }} />
-          <div className={styles.profileText}>
-            Name: yeunjeong <br />
-            age: 22
+        <div className={styles.contactBox}>
+          <div className={styles.contactText}>
+            ABOUT MY PROTFOLIO
+            <div className={styles.contactAboutME}>Explanation</div>
+            SOCIAL NETWORK SERVICE
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignContent: "center",
+                margin: "1vh 1vh",
+              }}
+            >
+              <img
+                src={icon1Img}
+                alt="youtube icon"
+                className={styles.contactIcon}
+              />
+              <img
+                src={icon2Img}
+                alt="linked in icon"
+                className={styles.contactIcon}
+              />
+              <img
+                src={icon3Img}
+                alt="instagram icon"
+                className={styles.contactIcon}
+              />
+            </div>
+            MY EMAIL ADDRESS
+            <div
+              style={{
+                backgroundColor: "#D9D9D9",
+                height: "5vh",
+                marginBottom: "1vh",
+              }}
+            ></div>
+            EMAIL TITLE
+            <div
+              style={{
+                backgroundColor: "#D9D9D9",
+                height: "5vh",
+                marginBottom: "1vh",
+              }}
+            ></div>
+            EMAIL CONTENT
+            <div
+              style={{
+                display: "flex",
+                flex: 1,
+                backgroundColor: "#D9D9D9",
+              }}
+            ></div>
+            <div className={styles.sendButton}>SEND TO EMAIL, NOW!</div>
           </div>
+          <div>
+            <img
+              src={profile2Img}
+              alt="profile"
+              className={styles.profileImg}
+            />
+          </div>
+        </div>
+      </div>
+      <div className={styles.footer}>
+        <div className={styles.footerText}>
+          THIS PAGE DOESN’T HAVE ANY COMMERCIAL PURPOSE, JUST PERSONAL
+          PORTFOLIOS.
+        </div>
+        <div className={styles.footerText}>
+          @2023, JURAN KIM, ALL RIGHT RESERVED
         </div>
       </div>
     </div>

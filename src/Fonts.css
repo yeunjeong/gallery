@@ -1,4 +1,10 @@
 @font-face {
+  font-family: "Hubballi";
+  font-weight: normal;
+  src: url("./assets/fonts/Hubballi-Regular.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "JockeyOne";
   font-weight: normal;
   src: url("./assets/fonts/JockeyOne-Regular.ttf") format("truetype");
