@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.666a5c48.css",
+    "main.js": "/portfolio/static/js/main.191d7ea5.js",
+    "static/media/project1_ex.png": "/portfolio/static/media/project1_ex.d6d719c51282a9c5b225.png",
+    "static/media/project24.png": "/portfolio/static/media/project24.d2a5260815cf4c83fb88.png",
+    "static/media/project31.png": "/portfolio/static/media/project31.894fe54a1412888a09c8.png",
+    "static/media/profile2.png": "/portfolio/static/media/profile2.495c3a2276af50118fbe.png",
+    "static/media/project23.png": "/portfolio/static/media/project23.4b9c0fc3f890ae6d2cf8.png",
+    "static/media/profile_pic.png": "/portfolio/static/media/profile_pic.c57aa0f54dacea6d41cc.png",
+    "static/media/project22.png": "/portfolio/static/media/project22.cb67258d6a1b0553de62.png",
+    "static/media/project21.png": "/portfolio/static/media/project21.a01d7f981b8d908e273f.png",
+    "static/media/Hubballi-Regular.ttf": "/portfolio/static/media/Hubballi-Regular.d67593baca758216d0d3.ttf",
+    "static/media/Margarine-Regular.ttf": "/portfolio/static/media/Margarine-Regular.1aa21878ec7292c8ea2d.ttf",
+    "static/media/JockeyOne-Regular.ttf": "/portfolio/static/media/JockeyOne-Regular.584844087b26cf82452d.ttf",
+    "static/media/LilitaOne-Regular.ttf": "/portfolio/static/media/LilitaOne-Regular.e970d047065ed950bb8c.ttf",
+    "static/media/video.png": "/portfolio/static/media/video.2ceff4cd608287a28f08.png",
+    "index.html": "/portfolio/index.html",
+    "main.666a5c48.css.map": "/portfolio/static/css/main.666a5c48.css.map",
+    "main.191d7ea5.js.map": "/portfolio/static/js/main.191d7ea5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.666a5c48.css",
+    "static/js/main.191d7ea5.js"
+  ]
+}
