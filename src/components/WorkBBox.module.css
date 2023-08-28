@@ -9,4 +9,28 @@
 .imageWrapper {
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(151, 42, 42, 0.53);
+  opacity: 0; /* 초기에는 덮개를 숨깁니다 */
+  pointer-events: none; /* 이벤트를 덮개가 가로채지 않도록 설정합니다 */
+  transition: opacity 0.3s ease; /* 페이드 효과를 위한 트랜지션 설정 */
+  padding: 1vw 1vw;
+  font-size: 2vw;
+}
+
+.imageWrapper:hover .overlay {
+  opacity: 1; /* 이미지 위에 마우스를 올리면 덮개가 나타나도록 설정합니다 */
+}
+
+.projectText {
+  font-family: "Marvel";
+  background-color: aqua;
 }

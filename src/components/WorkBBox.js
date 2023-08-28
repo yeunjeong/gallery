@@ -30,6 +30,10 @@ const WorkBBox = () => {
                     height: "40vh",
                   }}
                 />
+                <div className={styles.overlay}>
+                  PROJECT NAME
+                  <div className={styles.projectText}>Project explanation</div>
+                </div>
               </div>
             </div>
             <div style={{ flex: 3, marginLeft: "2vh" }}>
@@ -43,6 +47,10 @@ const WorkBBox = () => {
                     height: "40vh",
                   }}
                 />
+                <div className={styles.overlay}>
+                  PROJECT NAME
+                  <div className={styles.projectText}>Project explanation</div>
+                </div>
               </div>
             </div>
           </div>
@@ -57,6 +65,10 @@ const WorkBBox = () => {
                   height: "38vh",
                 }}
               />
+              <div className={styles.overlay}>
+                PROJECT NAME
+                <div className={styles.projectText}>Project explanation</div>
+              </div>
             </div>
           </div>
         </div>
@@ -71,6 +83,10 @@ const WorkBBox = () => {
                 height: "80vh",
               }}
             />
+            <div className={styles.overlay}>
+              PROJECT NAME
+              <div className={styles.projectText}>Project explanation</div>
+            </div>
           </div>
         </div>
       </div>

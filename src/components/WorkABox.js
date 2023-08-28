@@ -36,7 +36,7 @@ const WorkABox = () => {
       3D WORK
       <div style={{ display: "flex", flexDirection: "row" }}>
         <div className={styles.arrowBox} onClick={goToPreviousImage}>
-          <img src={arrowLeftImg} alt="arrow" height="50vh" />
+          <img src={arrowLeftImg} alt="arrow" width="8vw" />
         </div>
         <div className={styles.workABox}>
           <div className={styles.imageWrapper}>
@@ -48,7 +48,7 @@ const WorkABox = () => {
           </div>
         </div>
         <div className={styles.arrowBox} onClick={goToNextImage}>
-          <img src={arrowRightImg} alt="arrow" height="50vh" />
+          <img src={arrowRightImg} alt="arrow" width="8vw" />
         </div>
       </div>
     </div>
