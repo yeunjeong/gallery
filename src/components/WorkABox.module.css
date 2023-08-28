@@ -1,9 +1,18 @@
 .workABox {
-  padding: 0vw 3vw;
+  margin-top: 10px;
+  display: flex;
+  flex: 1;
+}
+.arrowBox {
+  width: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 10px;
 }
 
 .imageWrapper {
   display: flex;
   justify-content: center;
+  flex: 1;
 }
