@@ -1,26 +1,36 @@
 {
   "files": {
-    "main.css": "./static/css/main.a7d713f1.css",
-    "main.js": "./static/js/main.44363f4d.js",
+    "main.css": "./static/css/main.8daa6e63.css",
+    "main.js": "./static/js/main.b3e7b2cd.js",
     "static/media/project1_ex.png": "./static/media/project1_ex.d6d719c51282a9c5b225.png",
+    "static/media/activityB.png": "./static/media/activityB.9358f519d11fc6096a9c.png",
+    "static/media/project32.png": "./static/media/project32.c4970a911677cbe0f95b.png",
     "static/media/project24.png": "./static/media/project24.d2a5260815cf4c83fb88.png",
+    "static/media/activityA.png": "./static/media/activityA.e671390b00b9c52837ec.png",
     "static/media/project31.png": "./static/media/project31.894fe54a1412888a09c8.png",
     "static/media/profile2.png": "./static/media/profile2.495c3a2276af50118fbe.png",
+    "static/media/project_i.png": "./static/media/project_i.622ee51fb7b6f9ce8b4d.png",
+    "static/media/project_l.png": "./static/media/project_l.07a8ecdcc3d6bd326e22.png",
+    "static/media/project_k.png": "./static/media/project_k.89c1b618625631cfdf01.png",
+    "static/media/activityC.png": "./static/media/activityC.8eaa30106089ea6645dd.png",
+    "static/media/project_j.png": "./static/media/project_j.1bd17563c9b953643465.png",
     "static/media/project23.png": "./static/media/project23.4b9c0fc3f890ae6d2cf8.png",
     "static/media/profile_pic.png": "./static/media/profile_pic.c57aa0f54dacea6d41cc.png",
     "static/media/project22.png": "./static/media/project22.cb67258d6a1b0553de62.png",
     "static/media/project21.png": "./static/media/project21.a01d7f981b8d908e273f.png",
     "static/media/Hubballi-Regular.ttf": "./static/media/Hubballi-Regular.d67593baca758216d0d3.ttf",
     "static/media/Margarine-Regular.ttf": "./static/media/Margarine-Regular.1aa21878ec7292c8ea2d.ttf",
+    "static/media/Gruppo-Regular.ttf": "./static/media/Gruppo-Regular.6651b7e098ca04e57596.ttf",
     "static/media/JockeyOne-Regular.ttf": "./static/media/JockeyOne-Regular.584844087b26cf82452d.ttf",
+    "static/media/Marvel-Regular.ttf": "./static/media/Marvel-Regular.bcdc5fa78b5aaea11707.ttf",
     "static/media/LilitaOne-Regular.ttf": "./static/media/LilitaOne-Regular.e970d047065ed950bb8c.ttf",
     "static/media/video.png": "./static/media/video.2ceff4cd608287a28f08.png",
     "index.html": "./index.html",
-    "main.a7d713f1.css.map": "./static/css/main.a7d713f1.css.map",
-    "main.44363f4d.js.map": "./static/js/main.44363f4d.js.map"
+    "main.8daa6e63.css.map": "./static/css/main.8daa6e63.css.map",
+    "main.b3e7b2cd.js.map": "./static/js/main.b3e7b2cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7d713f1.css",
-    "static/js/main.44363f4d.js"
+    "static/css/main.8daa6e63.css",
+    "static/js/main.b3e7b2cd.js"
   ]
 }
