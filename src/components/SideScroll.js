@@ -19,7 +19,7 @@ const SideScroll = () => {
           to={section}
           spy={true}
           smooth={true}
-          offset={-10}
+          offset={-70}
           onSetActive={() => handleSetActive(section)}
         >
           <div

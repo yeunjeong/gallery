@@ -1,4 +1,10 @@
 @font-face {
+  font-family: "Gruppo";
+  font-weight: normal;
+  src: url("./assets/fonts/Gruppo-Regular.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Hubballi";
   font-weight: normal;
   src: url("./assets/fonts/Hubballi-Regular.ttf") format("truetype");

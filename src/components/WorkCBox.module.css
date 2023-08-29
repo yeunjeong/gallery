@@ -18,7 +18,32 @@
   margin: 0vh 5vw;
 }
 
+.textWithUnderline {
+  text-decoration: none;
+  position: relative;
+}
+
+.textWithUnderline::after {
+  content: ""; /* 가상 요소를 생성하여 밑줄을 그림 */
+  position: absolute;
+  bottom: 5%;
+  left: -10%;
+  width: 120%; /* 밑줄 길이 설정 */
+  border-bottom: 1px solid rgb(255, 255, 255); /* 밑줄 스타일과 색상 설정 */
+}
+
 .imageWrapper {
   display: flex;
+  justify-content: center;
+}
+
+.explanationText {
+  background-color: #d9d9d92b;
+  flex: 1;
+  display: flex;
+  margin-left: 2vh;
+  font-size: 2vw;
+  font-family: "Gruppo";
+  align-items: center;
   justify-content: center;
 }
