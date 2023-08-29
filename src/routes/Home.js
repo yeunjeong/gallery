@@ -5,6 +5,7 @@ import WorkABox from "../components/WorkABox";
 import WorkBBox from "../components/WorkBBox";
 import WorkCBox from "../components/WorkCBox";
 import ContactBox from "../components/ContactBox";
+import Footer from "../components/Footer";
 
 import videoImg from "../assets/images/video.png";
 import profilePicImg from "../assets/images/profile_pic.png";
@@ -38,15 +39,7 @@ function Home() {
       <div id="6" className={styles.contentBox}>
         <ContactBox />
       </div>
-      <div className={styles.footer}>
-        <div className={styles.footerText}>
-          THIS PAGE DOESN’T HAVE ANY COMMERCIAL PURPOSE, JUST PERSONAL
-          PORTFOLIOS.
-        </div>
-        <div className={styles.footerText}>
-          @2023, JURAN KIM, ALL RIGHT RESERVED
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 }

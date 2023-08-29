@@ -5,6 +5,12 @@
 }
 
 @font-face {
+  font-family: "HoltwoodOneSC";
+  font-weight: normal;
+  src: url("./assets/fonts/HoltwoodOneSC-Regular.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Hubballi";
   font-weight: normal;
   src: url("./assets/fonts/Hubballi-Regular.ttf") format("truetype");
