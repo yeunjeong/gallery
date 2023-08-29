@@ -1,9 +1,12 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useLocation } from "react-router-dom";
 import styles from "./MenuBar.module.css";
 import logoImg from "../assets/images/logo.png";
 
 const Menubar = () => {
+  const location = useLocation();
+  console.log(location.pathname);
+
   const menuItems = [
     { to: "/", text: "HOME" },
     { to: "/aboutme", text: "ABOUT ME" },
@@ -15,14 +18,23 @@ const Menubar = () => {
 
   return (
     <div>
-      <div className={styles.container}>
+      <div
+        className={`${styles.container} ${
+          location.pathname === "/" ? "" : styles.container2
+        }`}
+      >
         <img
           src={logoImg}
           alt="logo"
           style={{ marginRight: "50px", width: "4vw" }}
         />
         {menuItems.map((item, index) => (
-          <div key={index} className={styles.menuBox}>
+          <div
+            key={index}
+            className={`${styles.menuBox} ${
+              location.pathname === item.to ? styles.selected : ""
+            }`}
+          >
             <Link to={item.to} className={styles.menuLink}>
               {item.text}
             </Link>
