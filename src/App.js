@@ -8,6 +8,7 @@ import WorkA from "./routes/WorkA";
 import WorkB from "./routes/WorkB";
 import WorkC from "./routes/WorkC";
 import Contact from "./routes/Contact";
+import Project from "./routes/Project";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/workb" element={<WorkB />} />
         <Route path="/workc" element={<WorkC />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/:category/:id" element={<Project />} />
       </Route>
     </Routes>
   );

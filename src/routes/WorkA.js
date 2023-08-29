@@ -96,20 +96,24 @@ function WorkA() {
           <div className={styles.projectSection}>
             <div className={styles.projectSection2}>
               <ProjBox
+                id={currentPageIndex * 4}
                 title={data[currentPageIndex * 4].title}
                 image={data[currentPageIndex * 4].img}
               />
               <ProjBox
+                id={currentPageIndex * 4 + 1}
                 title={data[currentPageIndex * 4 + 1].title}
                 image={data[currentPageIndex * 4 + 1].img}
               />
             </div>
             <div className={styles.projectSection2}>
               <ProjBox
+                id={currentPageIndex * 4 + 2}
                 title={data[currentPageIndex * 4 + 2].title}
                 image={data[currentPageIndex * 4 + 2].img}
               />
               <ProjBox
+                id={currentPageIndex * 4 + 3}
                 title={data[currentPageIndex * 4 + 3].title}
                 image={data[currentPageIndex * 4 + 3].img}
               />
