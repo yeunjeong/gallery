@@ -1,3 +1,28 @@
-.header {
-  background-color: yellow;
+.contentBox {
+  font-family: JockeyOne;
+  font-size: 2vw;
+  margin-top: 6vw;
+  margin-bottom: 20vh;
+}
+
+.projectSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projectSection2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowBox {
+  width: calc(5vh + 3vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

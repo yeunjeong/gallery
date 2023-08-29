@@ -23,6 +23,12 @@
 }
 
 @font-face {
+  font-family: "Jua";
+  font-weight: normal;
+  src: url("./assets/fonts/Jua-Regular.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "LilitaOne";
   font-weight: normal;
   src: url("./assets/fonts/LilitaOne-Regular.ttf") format("truetype");

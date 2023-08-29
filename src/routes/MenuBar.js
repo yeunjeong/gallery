@@ -5,7 +5,6 @@ import logoImg from "../assets/images/logo.png";
 
 const Menubar = () => {
   const location = useLocation();
-  console.log(location.pathname);
 
   const menuItems = [
     { to: "/", text: "HOME" },
