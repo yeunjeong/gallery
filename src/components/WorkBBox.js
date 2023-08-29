@@ -31,7 +31,7 @@ const WorkBBox = () => {
                   }}
                 />
                 <div className={styles.overlay}>
-                  PROJECT NAME
+                  <div className={styles.projectTitle}>PROJECT NAME</div>
                   <div className={styles.projectText}>Project explanation</div>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const WorkBBox = () => {
                   }}
                 />
                 <div className={styles.overlay}>
-                  PROJECT NAME
+                  <div className={styles.projectTitle}>PROJECT NAME</div>
                   <div className={styles.projectText}>Project explanation</div>
                 </div>
               </div>
@@ -66,7 +66,7 @@ const WorkBBox = () => {
                 }}
               />
               <div className={styles.overlay}>
-                PROJECT NAME
+                <div className={styles.projectTitle}>PROJECT NAME</div>
                 <div className={styles.projectText}>Project explanation</div>
               </div>
             </div>
@@ -84,7 +84,7 @@ const WorkBBox = () => {
               }}
             />
             <div className={styles.overlay}>
-              PROJECT NAME
+              <div className={styles.projectTitle}>PROJECT NAME</div>
               <div className={styles.projectText}>Project explanation</div>
             </div>
           </div>
