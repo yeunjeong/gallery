@@ -26,3 +26,35 @@
   justify-content: center;
   align-items: center;
 }
+
+.detailBox {
+  background-color: rgba(42, 33, 142, 1);
+  margin-top: 8vw;
+  margin-bottom: 5vh;
+  font-family: "Jua";
+  font-size: 2vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: 1px;
+  border-style: solid;
+  padding: 3vw 5vh;
+}
+
+.detailHeader {
+  display: flex;
+  align-items: center;
+}
+
+.detailText {
+  font-family: "LilitaOne";
+  line-height: 2;
+  font-size: 2vw;
+  margin: 2vw 0vw;
+}
+
+.detailText2 {
+  font-family: "LilitaOne";
+  line-height: 2;
+  font-size: 2vw;
+}

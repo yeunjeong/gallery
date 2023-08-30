@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./WorkBBox.module.css";
+import styles from "./HomeProjB.module.css";
 
 import project21Img from "../assets/images/works/project21.png";
 import project22Img from "../assets/images/works/project22.png";
 import project23Img from "../assets/images/works/project23.png";
 import project24Img from "../assets/images/works/project24.png";
 
-const WorkBBox = () => {
+const HomeProjB = () => {
   return (
     <div>
       CFX WORK
@@ -94,4 +94,4 @@ const WorkBBox = () => {
   );
 };
 
-export default WorkBBox;
+export default HomeProjB;

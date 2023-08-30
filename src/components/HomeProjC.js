@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./WorkCBox.module.css";
+import styles from "./HomeProjC.module.css";
 
 import project31Img from "../assets/images/works/project31.png";
 import project32Img from "../assets/images/works/project32.png";
@@ -7,7 +7,7 @@ import activityA from "../assets/images/works/activityA.png";
 import activityB from "../assets/images/works/activityB.png";
 import activityC from "../assets/images/works/activityC.png";
 
-const WorkCBox = () => {
+const HomeProjC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const data = [
     { img: project31Img, text: "project 1" },
@@ -63,4 +63,4 @@ const WorkCBox = () => {
   );
 };
 
-export default WorkCBox;
+export default HomeProjC;

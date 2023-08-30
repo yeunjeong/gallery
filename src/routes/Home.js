@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Home.module.css";
 import SideScroll from "../components/SideScroll";
-import WorkABox from "../components/WorkABox";
-import WorkBBox from "../components/WorkBBox";
-import WorkCBox from "../components/WorkCBox";
+import WorkABox from "../components/HomeProjA";
+import WorkBBox from "../components/HomeProjB";
+import WorkCBox from "../components/HomeProjC";
 import ContactBox from "../components/ContactBox";
 import Footer from "../components/Footer";
 
