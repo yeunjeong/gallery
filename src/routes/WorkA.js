@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import styles from "./WorkA.module.css";
 import ProjBox from "../components/WorkABox";
 import Footer from "../components/Footer";
+import Detail from "../components/Detail";
 
 import arrowLeft from "../assets/images/arrow_left2.png";
 import arrowRight from "../assets/images/arrow_right2.png";
-import exitIcon from "../assets/images/exit_icon.png";
 
 function WorkA() {
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
@@ -89,6 +89,9 @@ function WorkA() {
   const showDetail = (id) => {
     setCurrentImageIndex(id);
     setIsDetailOpen(true);
+
+    // Scroll to the top of the page
+    window.scrollTo(0, 0);
   };
 
   const hideDetail = () => {
@@ -98,27 +101,13 @@ function WorkA() {
   return (
     <div>
       {isDetailOpen ? (
-        <div className={styles.detailBox}>
-          <div className={styles.detailHeader}>
-            <div style={{ flex: 1 }}>{data[currentImageIndex].title}</div>
-            <img
-              src={exitIcon}
-              alt="exit icon"
-              style={{ width: "3vw" }}
-              onClick={hideDetail}
-            />
-          </div>
-          <img
-            src={data2[0].img1}
-            alt="project"
-            style={{ width: "100%", margin: "2vw 0vw" }}
-          />
-          <div className={styles.detailText}>{data2[0].text1}</div>
-          <div style={{ display: "flex", margin: "4vw 0vw" }}>
-            <div className={styles.detailText2}>{data2[0].text2}</div>
-            <img src={data2[0].img2} alt="project" style={{ width: "40%" }} />
-          </div>
-        </div>
+        <Detail
+          id={currentImageIndex}
+          title={data[currentImageIndex].title}
+          data2={data2}
+          hideDetail={hideDetail}
+          bgColor={"rgba(42, 33, 142, 1)"}
+        />
       ) : (
         <div className={styles.contentBox}>
           <div style={{ marginLeft: "5vh" }}>3D WORK</div>

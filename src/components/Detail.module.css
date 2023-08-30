@@ -1,18 +1,4 @@
-.contentBox {
-  font-family: JockeyOne;
-  font-size: 2vw;
-  margin-top: 6vw;
-  margin-bottom: 5vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.projectBox {
-  margin: 10px calc(5vh + 3vw);
-}
-
 .detailBox {
-  background-color: rgba(6, 2, 56, 1);
   margin-top: 8vw;
   margin-bottom: 5vh;
   font-family: "Jua";
