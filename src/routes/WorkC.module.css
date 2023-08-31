@@ -1,3 +1,20 @@
-.header {
-  background-color: yellow;
+.contentBox {
+  font-family: JockeyOne;
+  font-size: 2vw;
+  margin-top: 6vw;
+  margin-bottom: 10vh;
+}
+
+.projectBox {
+  margin: 10px calc(5vh + 3vw);
+}
+
+.detailBox {
+  width: 100%;
+  height: 500px;
+  background-color: pink;
+  font-family: Jua;
+  font-size: 2vw;
+  margin-top: 6vw;
+  margin-bottom: 10vh;
 }
