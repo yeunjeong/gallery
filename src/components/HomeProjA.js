@@ -4,10 +4,10 @@ import styles from "./HomeProjA.module.css";
 import arrowLeftImg from "../assets/images/arrow_left.png";
 import arrowRightImg from "../assets/images/arrow_right.png";
 import project1ExImg from "../assets/images/works/project1_ex.png";
-import projectIImg from "../assets/images/works/project_i.png";
-import projectJImg from "../assets/images/works/project_j.png";
-import projectKImg from "../assets/images/works/project_k.png";
-import projectLImg from "../assets/images/works/project_l.png";
+import projectIImg from "../assets/images/works/works_a/project_i.png";
+import projectJImg from "../assets/images/works/works_a/project_j.png";
+import projectKImg from "../assets/images/works/works_a/project_k.png";
+import projectLImg from "../assets/images/works/works_a/project_l.png";
 
 const HomeProjA = () => {
   const images = [

@@ -14,51 +14,51 @@ function WorkA() {
 
   const data = [
     {
-      img: require("../assets/images/works/project_a.png"),
+      img: require("../assets/images/works/works_a/project_a.png"),
       title: "PROJECT A",
     },
     {
-      img: require("../assets/images/works/project_b.png"),
+      img: require("../assets/images/works/works_a/project_b.png"),
       title: "PROJECT B",
     },
     {
-      img: require("../assets/images/works/project_c.png"),
+      img: require("../assets/images/works/works_a/project_c.png"),
       title: "PROJECT C",
     },
     {
-      img: require("../assets/images/works/project_d.png"),
+      img: require("../assets/images/works/works_a/project_d.png"),
       title: "PROJECT D",
     },
     {
-      img: require("../assets/images/works/project_e.png"),
+      img: require("../assets/images/works/works_a/project_e.png"),
       title: "PROJECT E",
     },
     {
-      img: require("../assets/images/works/project_f.png"),
+      img: require("../assets/images/works/works_a/project_f.png"),
       title: "PROJECT F",
     },
     {
-      img: require("../assets/images/works/project_g.png"),
+      img: require("../assets/images/works/works_a/project_g.png"),
       title: "PROJECT G",
     },
     {
-      img: require("../assets/images/works/project_h.png"),
+      img: require("../assets/images/works/works_a/project_h.png"),
       title: "PROJECT H",
     },
     {
-      img: require("../assets/images/works/project_i.png"),
+      img: require("../assets/images/works/works_a/project_i.png"),
       title: "PROJECT I",
     },
     {
-      img: require("../assets/images/works/project_j.png"),
+      img: require("../assets/images/works/works_a/project_j.png"),
       title: "PROJECT J",
     },
     {
-      img: require("../assets/images/works/project_k.png"),
+      img: require("../assets/images/works/works_a/project_k.png"),
       title: "PROJECT K",
     },
     {
-      img: require("../assets/images/works/project_l.png"),
+      img: require("../assets/images/works/works_a/project_l.png"),
       title: "PROJECT L",
     },
   ];
