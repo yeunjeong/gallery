@@ -10,7 +10,12 @@ function WorkCBox({ id, title, image, showDetail }) {
       }`}
     >
       <div className={styles.titleText}>{title}</div>
-      <div className={styles.imageWrapper} onClick={showDetail}>
+      <div
+        className={styles.imageWrapper}
+        onClick={() => {
+          showDetail(id);
+        }}
+      >
         <img src={image} alt="project" className={styles.imageStyle}></img>
       </div>
       <div className={styles.textBox}>

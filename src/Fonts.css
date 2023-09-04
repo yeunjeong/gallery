@@ -29,6 +29,12 @@
 }
 
 @font-face {
+  font-family: "KleeOne";
+  font-weight: normal;
+  src: url("./assets/fonts/KleeOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "LilitaOne";
   font-weight: normal;
   src: url("./assets/fonts/LilitaOne-Regular.ttf") format("truetype");

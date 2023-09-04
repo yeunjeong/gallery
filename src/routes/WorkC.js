@@ -3,6 +3,8 @@ import styles from "./WorkC.module.css";
 import ProjBox from "../components/WorkCBox";
 import Footer from "../components/Footer";
 
+import exitIcon from "../assets/images/go_back_btn.png";
+
 function WorkC() {
   const data = [
     {
@@ -47,8 +49,18 @@ function WorkC() {
     },
   ];
 
+  const data2 = [
+    {
+      img1: require("../assets/images/works/works_c/activity_a.png"),
+      text1:
+        "  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ABOUT MY ACTIVITY  ",
+    },
+  ];
+
   const [isDetailOpen, setIsDetailOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const imageMargin = "10px";
 
   const showDetail = (id) => {
     setCurrentImageIndex(id);
@@ -65,7 +77,133 @@ function WorkC() {
   return (
     <div>
       {isDetailOpen ? (
-        <div className={styles.detailBox} onClick={hideDetail}></div>
+        <div className={styles.detailBox}>
+          <div className={styles.detailHeader}>
+            <img
+              src={exitIcon}
+              alt="exit icon"
+              style={{ width: "1.5vw" }}
+              onClick={hideDetail}
+            />
+            <div style={{ flex: 1, marginLeft: "2vw" }}>
+              {data[currentImageIndex].title}
+            </div>
+            <div style={{ fontFamily: "KleeOne" }}>0000.00.00.</div>
+          </div>
+          <div className={styles.detailTag}>
+            #GOOD_THING #GOOD_THING #GOOD_THING #GOOD_THING #GOOD_THING
+            #GOOD_THING
+          </div>
+          <img
+            src={data[currentImageIndex].img}
+            alt="project"
+            style={{ width: "100%", margin: "2vw 0vw" }}
+          />
+          <div className={styles.detailText}>{data2[0].text1}</div>
+          <div style={{ display: "flex", marginTop: imageMargin }}>
+            <div
+              style={{
+                width: "45%",
+                marginRight: imageMargin,
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <div style={{ height: "70%" }}>
+                <img
+                  src={data[currentImageIndex].img}
+                  alt={"title"}
+                  className={styles.imageStyle}
+                />
+              </div>
+              <div style={{ height: "30%", marginTop: imageMargin }}>
+                <img
+                  src={data[currentImageIndex].img}
+                  alt={"title"}
+                  className={styles.imageStyle}
+                />
+              </div>
+            </div>
+            <div
+              style={{
+                width: "55%",
+                marginRight: imageMargin,
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <div style={{ height: "25%" }}>
+                <img
+                  src={data[currentImageIndex].img}
+                  alt={"title"}
+                  className={styles.imageStyle}
+                />
+              </div>
+              <div style={{ height: "75%", marginTop: imageMargin }}>
+                <img
+                  src={data[currentImageIndex].img}
+                  alt={"title"}
+                  className={styles.imageStyle}
+                />
+              </div>
+            </div>
+          </div>
+          <div style={{ display: "flex", marginTop: imageMargin }}>
+            <div
+              style={{
+                width: "45%",
+                marginRight: imageMargin,
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <div style={{ height: "35%" }}>
+                <img
+                  src={data[currentImageIndex].img}
+                  alt={"title"}
+                  className={styles.imageStyle}
+                />
+              </div>
+              <div style={{ height: "35%", marginTop: imageMargin }}>
+                <img
+                  src={data[currentImageIndex].img}
+                  alt={"title"}
+                  className={styles.imageStyle}
+                />
+              </div>
+              <div style={{ height: "30%", marginTop: imageMargin }}>
+                <img
+                  src={data[currentImageIndex].img}
+                  alt={"title"}
+                  className={styles.imageStyle}
+                />
+              </div>
+            </div>
+            <div
+              style={{
+                width: "55%",
+                marginRight: imageMargin,
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <div style={{ height: "50%" }}>
+                <img
+                  src={data[currentImageIndex].img}
+                  alt={"title"}
+                  className={styles.imageStyle}
+                />
+              </div>
+              <div style={{ height: "50%", marginTop: imageMargin }}>
+                <img
+                  src={data[currentImageIndex].img}
+                  alt={"title"}
+                  className={styles.imageStyle}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       ) : (
         <div className={styles.contentBox}>
           <div style={{ marginLeft: "5vh" }}>ACTIVITY</div>
